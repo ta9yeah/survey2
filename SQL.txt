@@ -1,0 +1,7 @@
+INSERT INTO `survey`.`survey` (`code`, `nickname`, `email`, `goiken`) VALUES (NULL, 'testName', 'testEmail', 'testGoiken');
+
+SELECT `code`, `nickname`, `email`, `goiken` FROM `survey` WHERE 2
+
+UPDATE `survey`.`survey` SET `goiken` = 'testご意見です' WHERE `survey`.`code` = 3;
+
+DELETE FROM `survey`.`survey` WHERE `survey`.`code` = 4
